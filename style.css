@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: rgb(244, 238, 231);
+   
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top>block{
+    margin: 10px;
+}
+
+.bottom>button{
+    margin: 10px;
+}
+
+.block>p{
+    margin: 10px auto;
+    width: 50%;
+}
+
+.canvas{
+    border: 2px solid rgb(0, 0, 0);
+    width: 800px;
+    height: 500px;
+}
+
+.top, .bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.block,input,select,button{
+    width: 80%;
+}
